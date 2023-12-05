@@ -1,0 +1,136 @@
+  /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+  @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap")
+  body {
+     
+    font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40%;
+
+  }
+
+header {
+    padding-left: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 567px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 600px;
+   /* Optional background color */
+}
+.text-size{
+
+  text-align: left;
+    width: 600px;
+}
+.adjust{
+  margin: auto;
+    width: 600px;
+}
+.align2{
+  text-align: center;
+    width: 600px;
+  padding-top: 60px;
+}
+.align{
+  padding-left: 50px;
+  text-align: left;
+    width: 600px;
+  
+}
+.edit2{
+  text-align: left;
+    width: 600px;
+}
+#portfolio{
+  display: flex;
+  flex-direction:column;
+}
+.photo-container{
+display: flex;
+  flex-basis: 200px;
+}
+
+.photo-container p{
+  max-width: 83%;
+  text-align: center;
+  font-size: 14px;
+}
+.photo-container section{
+  max-width: 210px;
+}
+.space{
+  padding: 15px;
+  padding-bottom: 70px;
+}
+.space-container{
+  padding-top: 70px;
+}
+.padding{
+  padding-left: 10%;
+}
+h1,
+h2,
+h3
+ {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+  /* Set the font family for any h1, h2, or h3 heading */
+  h4, h5{
+    font-family: "Playfair Display", Times, serif;
+    text-align: center;
+   }
+  a:link{
+    color: #d62828;
+  }
+  a:hover{
+    color: #f77f00;
+  }
+  nav{
+    display: flex;
+    text-align: center;
+    word-spacing: 40px;
+    display: inline-block;
+    padding: 5px;
+  }
+  p {
+    line-height: 1.5;;
+    text-align: left;
+     margin: auto;
+    width: 600px;
+  }
+  div {
+   margin: auto; 
+  text-align: left;
+  }
+  footer{
+  margin-top: -10%;
+     margin: auto;
+    width: 600px;
+  }
+  img {
+    padding-left: 18px;
+    width: 100%;
+    max-width: 170px;
+    height: auto;
+    margin-top: auto;
+  }
+  hr {
+    border: 1px solid black;
+    width: 600px;
+  }
+/* Add your solution below */
+    .image-circle {
+      width: 100%; 
+      height: 100%;
+      padding: 56px;
+    border-radius: 50%;
+    border-width: 2px; 
+    margin: auto;
+    display: flex;
+  }
